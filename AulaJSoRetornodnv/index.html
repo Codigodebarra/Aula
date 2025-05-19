@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div id="mensagem">
+            <label for="txtNomeAluno">Nome do aluno:</label>
+            <input type="text" name="NomeAluno" id="txtNomeAluno" />
+        </div>
+        <!--
+        O button onclick dá refresh na tela.O input type button não.Input é preferível
+            <button onclick="salvar()">
+                Validar
+            </button>
+        -->
+            <input type="button" value="Salvar" onclick="salvar()"/>
+    </form>
+
+    <script src="aula.js"></script>
+</body>
+</html>
